@@ -6,7 +6,7 @@ import './layout.css';
 const Layout = ({ children }) => (
   <>
     <header>
-      <Link to="/">Video Chat App</Link>
+      <Link to="/">Self-Analytica</Link>
     </header>
     <main>{children}</main>
   </>
