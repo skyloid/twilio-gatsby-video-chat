@@ -22,7 +22,7 @@ const Join = ({ location }) => {
 
   return (
     <>
-      <h1>Start or Join a Video Chat</h1>
+      <h1>Welcome To Your Digital Sovereignty</h1>
       <form onSubmit={handleSubmit} className="start-form">
         <label htmlFor="identity">
           Display name:
@@ -42,7 +42,7 @@ const Join = ({ location }) => {
             onChange={e => setRoom(e.target.value)}
           />
         </label>
-        <button type="submit">Join Video Chat</button>
+        <button type="submit">Enter Room</button>
       </form>
     </>
   );
