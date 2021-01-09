@@ -97,7 +97,7 @@ const useTwilioVideo = () => {
   const getParticipantToken = async ({ identity, room }) => {
     const result = await axios({
       method: 'POST',
-      url: 'https://jasmine-greyhound-8600.twil.io/create-room-token',
+      url: 'https://sand-kouprey-9640.twil.io/create-room-token',
       data: { identity, room },
     });
 
